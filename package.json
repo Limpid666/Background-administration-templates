@@ -49,5 +49,8 @@
       "eslint --fix",
       "git add"
     ]
+  },
+  "husky": {
+    "hooks": {}
   }
 }
