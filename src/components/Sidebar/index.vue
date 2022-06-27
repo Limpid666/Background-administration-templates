@@ -1,6 +1,7 @@
+/* 左侧 */
 <template>
   <div>
-    11111
+    左侧导航栏
   </div>
 </template>
 <script setup>
