@@ -1,24 +1,17 @@
 <template>
   <div>
-    <template>
-      <div class="app-wrapper">
+    <el-row>
+      <el-col :span="4">
         <!-- 左侧 menu -->
         <sidebar />
-        <div class="main-container">
-          <div class="fixed-header">
-            <!-- 顶部的 navbar -->
-            <navbar />
-          </div>
-          <!-- 内容区 -->
-          <app-main />
-        </div>
-      </div>
-    </template>
-    <app-navbar></app-navbar>
-    <!-- 左侧导航栏 -->
-    <app-sidebar></app-sidebar>
-    <!-- 右侧主体 -->
-    <app-main></app-main>
+      </el-col>
+      <el-col :span="20">
+        <!-- 顶部的 navbar -->
+        <navbar />
+        <!-- 内容区 -->
+        <app-main />
+      </el-col>
+    </el-row>
   </div>
 </template>
 <script setup>
