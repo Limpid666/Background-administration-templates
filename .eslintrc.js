@@ -25,6 +25,8 @@ module.exports = {
     // "quotes": "off" // 修改不校验
     quotes: 'warn', // 修改警告
     // 该规则表示关闭《方法名后增加空格》的规则
-    'space-before-function-paren': 'off'
+    'space-before-function-paren': 'off',
+    // 关闭命名规则校验
+    'vue/multi-word-component-names': 'off'
   }
 }
